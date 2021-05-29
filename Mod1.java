@@ -23,6 +23,7 @@ public class Mod1 {
                 } while (!ok);
             } catch (Exception e) {
                 System.out.printf("Valor inválido, tente informar o %dº número novamente", (i+1));
+                read.next();
             }
         }
         read.close();
